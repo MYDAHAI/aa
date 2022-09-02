@@ -11,9 +11,16 @@
     <groupId>com.example</groupId>
     <artifactId>testweb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <name>testweb</name>
     <description>testweb</description>
+
+    <modules>
+        <module>AA</module>
+        <module>BB</module>
+        <module>CC</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
